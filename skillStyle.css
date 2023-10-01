@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    background-color: #E8E9E9;
+    /* background-color: rebeccapurple; */
+    /* background-color: #F7F7F7; */
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+header {
+    padding: 30px 90px 0px 90px;
+    margin-bottom: 100px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    float: right;
+}
+
+header ul li a {
+    transition: 0.2s;
+}
+
+header ul li a:hover {
+    /* color: #03E3E9; */
+    color: #20C997;
+}
+
+.active {
+    color: #20C997;
+}
+
+.logo {
+    float: left;
+}
+
+.leftNavbar {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.rightNavbar {
+    display: block;
+    text-align: center;
+    /* padding: 14px 16px; */
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+/* li a:hover:not(.active) {
+    background-color: #111;
+} */
+
+/* .active {
+    background-color: #04AA6D;
+} */
+
+.containerText {
+    margin: 0px 200px 20px 200px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: start;
+}
+
+.container {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.col {
+    flex: 0 0 calc(25% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.col img {
+    /* max-width: 100%; */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.col img:hover {
+    background-color: #CCC;
+    border: 2px solid #AAA;
+}
+
+.hello {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@keyframes cursor-blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.cursor {
+    animation: cursor-blink 0.8s infinite;
+}
+
+footer {
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
